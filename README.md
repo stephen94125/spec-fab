@@ -160,6 +160,39 @@ spec_plan
 #    (You decide the architecture. Don't let AI hallucinate your system.)
 ```
 
+### 9. Language & Translation Workflow
+
+spec-fab supports multi-language documentation natively using Fabric's `LANGUAGE_OUTPUT` setting.
+
+#### Toggle Language
+Switch the AI's output language globally (e.g., between English and your Native Locale).
+
+```bash
+# Toggle between en-US and your native language (set in config)
+spec_toggle_lang
+# Output: 🌐 Fabric output switched to Native: zh-TW
+
+# Toggle back
+spec_toggle_lang
+# Output: 🇺🇸 Fabric output reset to Default: en-US
+
+```
+
+#### Translate Documents
+
+Translate any existing specification or plan into the currently selected language.
+*Uses the `translate_tech` pattern to ensure technical terms (e.g., Kubernetes, React) remain in English.*
+
+```bash
+# Standard usage (uses current global language setting)
+spec_translate spec.md
+# 咻! spec.md is now in Traditional Chinese.
+
+# One-off override (without changing global config)
+LANGUAGE_OUTPUT=ja-JP spec_translate plan.md
+# 咻! plan.md is now in Japanese.
+
+
 ## 🚧 Roadmap
 
 The journey of SpecFab has just begun. We are working on the final pieces to bridge the gap from "Decision" to "Execution":
