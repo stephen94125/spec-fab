@@ -200,6 +200,7 @@ The journey of SpecFab has just begun. We are working on the final pieces to bri
 | Command |
 | :--- |
 | **`spec_roadmap`** |
+| **`spec_dispatch`** |
 
 ## Contributing
 
