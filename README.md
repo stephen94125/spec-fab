@@ -203,6 +203,7 @@ The journey of SpecFab has just begun. We are working on the final pieces to bri
 | **`spec_dispatch`** |
 | **`spec_evolve`** |
 | **`spec_glue`** |
+| **`spec_project_brief`** |
 
 ## Contributing
 

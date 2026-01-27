@@ -200,6 +200,7 @@ spec-fab 的旅程才剛開始。我們正致力於補完從「架構決策」�
 | **`spec_dispatch`** |
 | **`spec_evolve`** |
 | **`spec_glue`** |
+| **`spec_project_brief`** |
 
 ## 貢獻
 
