@@ -201,6 +201,7 @@ The journey of SpecFab has just begun. We are working on the final pieces to bri
 | :--- |
 | **`spec_roadmap`** |
 | **`spec_dispatch`** |
+| **`spec_evolve`** |
 
 ## Contributing
 
