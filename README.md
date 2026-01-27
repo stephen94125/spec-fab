@@ -199,10 +199,7 @@ The journey of SpecFab has just begun. We are working on the final pieces to bri
 
 | Command |
 | :--- |
-| **`spec_task`** |
-| **`spec_checklist`** |
-| **`spec_summarize_spec`** |
-| **`spec_summarize_plan`** |
+| **`spec_roadmap`** |
 
 ## Contributing
 

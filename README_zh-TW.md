@@ -196,10 +196,7 @@ spec-fab 的旅程才剛開始。我們正致力於補完從「架構決策」�
 
 | 指令 |
 | :--- |
-| **`spec_task`** |
-| **`spec_checklist`** |
-| **`spec_summarize_spec`** |
-| **`spec_summarize_plan`** | 
+| **`spec_roadmap`** |
 
 ## 貢獻
 
